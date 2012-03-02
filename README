@@ -1,0 +1,19 @@
+Informações para compilar:
+Foi usada a Allegro 4.4, e o jogo foi desenvolvido no Linux.
+Ao levar para o Windows, acontecia um problema com a tela em FULLSCREEN, tinha que mudar
+para WINDOWED e diminuir a resolução de 1000x800 para 800x600
+
+O jogo funciona da seguinte maneira:
+
+A primeira tela, é a de apresentação, basta apertar ENTER para começar ou ESC para sair.
+
+A nave deve atingir todos os alienígenas antes que eles cheguem próximos a ela.
+Cada vez que se derrota uma porção de aliens, um novo "Round" começa e a velocidade de
+movimento dos aliens aumenta. Cada alien conta 10 pontos no score, e no total são 75 aliens.
+A pontuação é incremental a cada round.
+
+O Game Over ocorre quando os aliens tocam a nave ou a origem.
+
+Componentes:
+- Getulio Paulino
+- Jucieny Dantas
